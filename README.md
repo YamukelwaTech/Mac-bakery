@@ -1,5 +1,3 @@
-# bakery-website
-
 #### Project: Bakery-website
 
 ###### Date Started : Apr 25 2024

@@ -1,4 +1,3 @@
-// Navigation.js
 import React from "react";
 import { connect } from "react-redux";
 import { setCurrentPage } from "../store/actions/navigationActions";

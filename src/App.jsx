@@ -4,7 +4,7 @@ import MyRoutes from "./Routes";
 
 const App = () => {
   return (
-    <div>
+    <div className="bg-pink-500">
       <Navigation />
       <MyRoutes />
     </div>

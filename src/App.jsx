@@ -1,26 +1,14 @@
 import React from "react";
-import { connect } from "react-redux";
-import Navigation from "./components/navigation"; 
-import "./App.css";
+import Navigation from "./components/navigation";
+import MyRoutes from "./Routes";
 
-const App = ({ count, increment, decrement }) => {
+const App = () => {
   return (
     <div className="body">
       <Navigation />
-      <h1>Count: {count}</h1>
-      <button onClick={increment}>Increment</button>
-      <button onClick={decrement}>Decrement</button>
+      <MyRoutes />
     </div>
   );
 };
 
-const mapStateToProps = (state) => ({
-  count: state.counter.count,
-});
-
-const mapDispatchToProps = (dispatch) => ({
-  increment: () => dispatch({ type: "INCREMENT" }),
-  decrement: () => dispatch({ type: "DECREMENT" }),
-});
-
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default App;

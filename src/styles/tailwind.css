@@ -1,14 +1,5 @@
-/* Import the base styles */
-@tailwind base;
+@import "tailwindcss/base";
 
-/* Import the component styles */
-@tailwind components;
+@import "tailwindcss/components";
 
-/* Import the utility styles */
-@tailwind utilities;
-
-/* You can also add custom CSS rules below */
-/* For example: */
-body {
-  background-color: #ffffff; /* Set the background color to white */
-}
+@import "tailwindcss/utilities";

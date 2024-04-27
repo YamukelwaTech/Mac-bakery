@@ -1,13 +1,14 @@
 import React from "react";
 import Navigation from "./components/navigation";
 import MyRoutes from "./Routes";
+import "./styles/app.css";
 
 const App = () => {
   return (
-    <div className="bg-yellow-500">
+    <>
       <Navigation />
       <MyRoutes />
-    </div>
+    </>
   );
 };
 

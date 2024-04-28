@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { setCurrentPage } from "../store/actions/navigationActions";
 import { Link } from "react-router-dom";
+import logo from "../assets/McDonald's.svg";
 
 function Navigation({ currentPage, setCurrentPage }) {
   const handleNavigation = (page) => {
@@ -9,46 +10,55 @@ function Navigation({ currentPage, setCurrentPage }) {
   };
 
   return (
-    <nav className=" py-9">
-      <ul className="flex justify-center mr-10 space-x-8">
-        <li className="mr-8">
-          <img src="logo.png" alt="Logo" className="h-8" />
-        </li>
-        <li>
-          <Link
+    <nav className="fixed top-0 left-0 w-full py-4 z-10">
+      <div className="max-w-4xl mx-auto">
+        <ul className="flex items-center justify-center">
+          <li className="mr-6 flex items-center">
+            <img src={logo} alt="Logo" className="h-8 mr-2" />
+            <span className="text-white font-bold">Bakery</span>
+          </li>
+          <NavItem
             to="/"
-            className={`text-white ${currentPage === "/" ? "font-bold" : ""}`}
-            onClick={() => handleNavigation("/")}
+            currentPage={currentPage}
+            handleNavigation={handleNavigation}
           >
             Home
-          </Link>
-        </li>
-        <li>
-          <Link
+          </NavItem>
+          <NavItem
             to="/about"
-            className={`text-white ${
-              currentPage === "/about" ? "font-bold" : ""
-            }`}
-            onClick={() => handleNavigation("/about")}
+            currentPage={currentPage}
+            handleNavigation={handleNavigation}
           >
             About
-          </Link>
-        </li>
-        <li>
-          <Link
+          </NavItem>
+          <NavItem
             to="/menu"
-            className={`text-white ${
-              currentPage === "/menu" ? "font-bold" : ""
-            }`}
-            onClick={() => handleNavigation("/menu")}
+            currentPage={currentPage}
+            handleNavigation={handleNavigation}
           >
             Menu
-          </Link>
-        </li>
-      </ul>
+          </NavItem>
+        </ul>
+      </div>
     </nav>
   );
 }
+
+const NavItem = ({ to, currentPage, handleNavigation, children }) => {
+  const isCurrentPage = currentPage === to;
+  return (
+    <li className="ml-6">
+      <Link
+        to={to}
+        className={`text-white ${isCurrentPage ? "font-bold" : ""}`}
+        onClick={() => handleNavigation(to)}
+        style={{ color: isCurrentPage ? "black" : "white" }} 
+      >
+        {children}
+      </Link>
+    </li>
+  );
+};
 
 const mapStateToProps = (state) => ({
   currentPage: state.navigation.currentPage,

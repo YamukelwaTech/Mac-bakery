@@ -10,7 +10,7 @@ function Navigation({ currentPage, setCurrentPage }) {
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full py-4 z-10">
+    <nav className="fixed top-0 left-0 bg-red-600 0 w-full py-4 z-10">
       <div className="max-w-4xl mx-auto">
         <ul className="flex items-center justify-center">
           <li className="mr-6 flex items-center">
@@ -52,7 +52,7 @@ const NavItem = ({ to, currentPage, handleNavigation, children }) => {
         to={to}
         className={`text-white ${isCurrentPage ? "font-bold" : ""}`}
         onClick={() => handleNavigation(to)}
-        style={{ color: isCurrentPage ? "black" : "white" }} 
+        style={{ color: isCurrentPage ? "black" : "white" }}
       >
         {children}
       </Link>

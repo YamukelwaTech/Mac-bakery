@@ -5,10 +5,10 @@ import "./styles/app.css";
 
 const App = () => {
   return (
-    <>
+    <div className="mt-20"> 
       <Navigation />
       <MyRoutes />
-    </>
+    </div>
   );
 };
 

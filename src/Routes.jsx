@@ -7,9 +7,30 @@ import MenuPage from "./pages/MenuPage";
 const MyRoutes = () => {
   return (
     <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/about" element={<AboutPage />} />
-      <Route path="/menu" element={<MenuPage />} />
+      <Route
+        path="/"
+        element={
+          <div className="bg-red-600">
+            <HomePage />
+          </div>
+        }
+      />
+      <Route
+        path="/about"
+        element={
+          <div className="bg-red-600">
+            <AboutPage />
+          </div>
+        }
+      />
+      <Route
+        path="/menu"
+        element={
+          <div className="bg-red-600">
+            <MenuPage />
+          </div>
+        }
+      />
     </Routes>
   );
 };

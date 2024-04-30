@@ -21,17 +21,17 @@ const AboutPage = () => {
       <div className="lg:mt-14 sm:mt-10 mt-12">
         <img
           className="lg:block hidden w-full"
-          src="https://muggandbean.co.za/images/img-pages/homepage/promo/2024/march/coffee-subs/coffee-subs-desktop.webp"
+          src="https://www.kingarthurbaking.com/sites/default/files/styles/card_2_across_large_2x/public/2019-06/camelot-campus.jpg?itok=xAY-YbRW"
           alt=""
         />
         <img
           className="lg:hidden sm:block hidden w-full"
-          src="https://muggandbean.co.za/images/img-pages/homepage/promo/2024/march/coffee-subs/coffee-subs-desktop.webp"
+          src="https://www.kingarthurbaking.com/sites/default/files/styles/card_2_across_large_2x/public/2019-06/camelot-campus.jpg?itok=xAY-YbRW"
           alt=""
         />
         <img
           className="sm:hidden block w-full"
-          src="https://muggandbean.co.za/images/img-pages/homepage/promo/2024/march/coffee-subs/coffee-subs-desktop.webp"
+          src="https://www.kingarthurbaking.com/sites/default/files/styles/card_2_across_large_2x/public/2019-06/camelot-campus.jpg?itok=xAY-YbRW"
           alt=""
         />
       </div>
@@ -66,17 +66,17 @@ const AboutPage = () => {
         <div className="lg:flex items-center w-full lg:w-1/2 ">
           <img
             className="lg:block hidden w-full"
-            src="https://images.unsplash.com/photo-1491223111273-505dc52e1cf9?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8"
+            src="https://www.kingarthurbaking.com/sites/default/files/styles/kaf_thumbnail_large_2x_880x596_/public/2021-01/Kathryn%26Carla_9.jpg?itok=RvrxBXzP"
             alt=""
           />
           <img
             className="lg:hidden sm:block hidden w-full h-3/4"
-            src="https://images.unsplash.com/photo-1491223111273-505dc52e1cf9?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8"
+            src="https://www.kingarthurbaking.com/sites/default/files/styles/kaf_thumbnail_large_2x_880x596_/public/2021-01/Kathryn%26Carla_9.jpg?itok=RvrxBXzP"
             alt=""
           />
           <img
             className="sm:hidden block w-full"
-            src="https://images.unsplash.com/photo-1491223111273-505dc52e1cf9?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8"
+            src="https://www.kingarthurbaking.com/sites/default/files/styles/kaf_thumbnail_large_2x_880x596_/public/2021-01/Kathryn%26Carla_9.jpg?itok=RvrxBXzP"
             alt=""
           />
         </div>

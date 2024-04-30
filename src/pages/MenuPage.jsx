@@ -65,13 +65,13 @@ const MenuPage = () => {
               <div className=" flex justify-center items-center opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full"></div>
               <img
                 className=" w-full"
-                src="https://www.mcdonalds.co.za/media/products/medium-chocolate-shake/Chocolate-Shake.png"
+                src="https://www.mcdonalds.co.za/media/products/homestyle-donut/Home-Style-Doughtnut.png"
                 alt=""
               />
             </div>
 
             <p className=" font-normal text-xl leading-5 text-gray-800 md:mt-6 mt-4">
-              Choco Shake
+              Homestyle Doughnut
             </p>
             <p className=" font-semibold text-xl leading-5 text-gray-800 mt-4">
               R180

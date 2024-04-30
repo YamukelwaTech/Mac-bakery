@@ -95,7 +95,7 @@ const AboutPage = () => {
                 </p>
               </div>
             </div>
-            <div className="w-full h-64 flex flex-col justify-between bg-pink-300 rounded-lg border border-pink-300 mb-6 py-5 px-4">
+            <div className="w-full h-64 flex flex-col justify-between bg-yellow-400 rounded-lg border border-yellow-400 mb-6 py-5 px-4">
               <div>
                 <h4 className="text-gray-800 font-bold mb-3">Freshness</h4>
                 <p className="text-gray-800 text-sm">
@@ -104,7 +104,7 @@ const AboutPage = () => {
                 </p>
               </div>
             </div>
-            <div className="w-full h-64 flex flex-col justify-between items-start bg-blue-300 rounded-lg border border-blue-300 mb-6 py-5 px-4">
+            <div className="w-full h-64 flex flex-col justify-between bg-yellow-400 rounded-lg border border-yellow-400 mb-6 py-5 px-4">
               <div>
                 <h4 className="text-gray-800 font-bold mb-3">Variety</h4>
                 <p className="text-gray-800 text-sm">
@@ -183,7 +183,7 @@ const AboutPage = () => {
             </div>
           </div>
           <div className="rounded">
-            <div className="w-full h-64 flex flex-col justify-between items-start bg-blue-300 rounded-lg border border-blue-300 mb-6 py-5 px-4">
+          <div className="w-full h-64 flex flex-col justify-between bg-yellow-400 rounded-lg border border-yellow-400 mb-6 py-5 px-4">
               <div>
                 <h4 className="text-gray-800 font-bold mb-3">
                   Community Engagement
@@ -205,7 +205,7 @@ const AboutPage = () => {
                 </p>
               </div>
             </div>
-            <div className="w-full h-64 flex flex-col justify-between bg-pink-300 rounded-lg border border-pink-300 mb-6 py-5 px-4">
+            <div className="w-full h-64 flex flex-col justify-between bg-yellow-400 rounded-lg border border-yellow-400 mb-6 py-5 px-4">
               <div>
                 <h4 className="text-gray-800 font-bold mb-3">Passion</h4>
                 <p className="text-gray-800 text-sm">

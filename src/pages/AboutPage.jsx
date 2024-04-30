@@ -21,18 +21,18 @@ const AboutPage = () => {
       <div className="lg:mt-14 sm:mt-10 mt-12">
         <img
           className="lg:block hidden w-full"
-          src="https://www.mcdonalds.co.za/media/blocks/Caramel-Chai-Web-banner.webp"
-          alt="Group of people Chilling"
+          src="https://muggandbean.co.za/images/img-pages/homepage/promo/2024/march/coffee-subs/coffee-subs-desktop.webp"
+          alt=""
         />
         <img
           className="lg:hidden sm:block hidden w-full"
-          src="https://www.mcdonalds.co.za/media/blocks/Caramel-Chai-Web-banner.webp"
-          alt="Group of people Chilling"
+          src="https://muggandbean.co.za/images/img-pages/homepage/promo/2024/march/coffee-subs/coffee-subs-desktop.webp"
+          alt=""
         />
         <img
           className="sm:hidden block w-full"
-          src="https://www.mcdonalds.co.za/media/blocks/Caramel-Chai-Web-banner.webp"
-          alt="Group of people Chilling"
+          src="https://muggandbean.co.za/images/img-pages/homepage/promo/2024/march/coffee-subs/coffee-subs-desktop.webp"
+          alt=""
         />
       </div>
 
@@ -66,19 +66,155 @@ const AboutPage = () => {
         <div className="lg:flex items-center w-full lg:w-1/2 ">
           <img
             className="lg:block hidden w-full"
-            src="https://www.knowourfood.co.za/wp-content/uploads/2023/07/LETTUCE_1.png"
-            alt="people discussing on board"
+            src="https://images.unsplash.com/photo-1491223111273-505dc52e1cf9?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8"
+            alt=""
           />
           <img
             className="lg:hidden sm:block hidden w-full h-3/4"
-            src="https://www.knowourfood.co.za/wp-content/uploads/2023/07/LETTUCE_1.png"
-            alt="people discussing on board"
+            src="https://images.unsplash.com/photo-1491223111273-505dc52e1cf9?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8"
+            alt=""
           />
           <img
             className="sm:hidden block w-full"
-            src="https://www.knowourfood.co.za/wp-content/uploads/2023/07/LETTUCE_1.png"
-            alt="people discussing on board"
+            src="https://images.unsplash.com/photo-1491223111273-505dc52e1cf9?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8"
+            alt=""
           />
+        </div>
+      </div>
+      <div className="mx-auto container py-20 px-6">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <div className="rounded">
+            <div className="w-full h-64 flex flex-col justify-between dark:bg-gray-800 bg-white dark:border-gray-700 rounded-lg border border-gray-400 mb-6 py-5 px-4">
+              <div>
+                <h4 className="text-gray-800 dark:text-gray-100 font-bold mb-3">
+                  Quality
+                </h4>
+                <p className="text-gray-800 dark:text-gray-100 text-sm">
+                  Ensuring consistently high-quality ingredients and
+                  craftsmanship in every baked good to delight customers.
+                </p>
+              </div>
+            </div>
+            <div className="w-full h-64 flex flex-col justify-between bg-pink-300 rounded-lg border border-pink-300 mb-6 py-5 px-4">
+              <div>
+                <h4 className="text-gray-800 font-bold mb-3">Freshness</h4>
+                <p className="text-gray-800 text-sm">
+                  Offering freshly baked items daily to provide customers with
+                  the best tasting experience.
+                </p>
+              </div>
+            </div>
+            <div className="w-full h-64 flex flex-col justify-between items-start bg-blue-300 rounded-lg border border-blue-300 mb-6 py-5 px-4">
+              <div>
+                <h4 className="text-gray-800 font-bold mb-3">Variety</h4>
+                <p className="text-gray-800 text-sm">
+                  Providing a diverse selection of products to cater to
+                  different tastes and preferences.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="rounded">
+            <div className="w-full h-64 flex flex-col justify-between dark:bg-gray-800 bg-white dark:border-gray-700 rounded-lg border border-gray-400 mb-6 py-5 px-4">
+              <div>
+                <h4 className="text-gray-800 dark:text-gray-100 font-bold mb-3">
+                  Hygiene
+                </h4>
+                <p className="text-gray-800 dark:text-gray-100 text-sm">
+                  Maintaining impeccable cleanliness and hygiene standards in
+                  all aspects of bakery operations.
+                </p>
+              </div>
+            </div>
+            <div className="w-full h-64 flex flex-col justify-between bg-yellow-400 rounded-lg border border-yellow-400 mb-6 py-5 px-4">
+              <div>
+                <h4 className="text-gray-800 font-bold mb-3">Transparency</h4>
+                <p className="text-gray-800 text-sm">
+                  Clearly communicating ingredients and nutritional information
+                  to customers for informed choices.
+                </p>
+              </div>
+            </div>
+            <div className="w-full h-64 flex flex-col justify-between dark:bg-gray-800 bg-white dark:border-gray-700 rounded-lg border border-gray-400 mb-6 py-5 px-4">
+              <div>
+                <h4 className="text-gray-800 dark:text-gray-100 font-bold mb-3">
+                  Sustainability
+                </h4>
+                <p className="text-gray-800 dark:text-gray-100 text-sm">
+                  Committing to environmentally friendly practices, such as
+                  reducing waste and sourcing local ingredients when possible.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="rounded">
+            <div className="w-full h-64 flex flex-col justify-between items-start dark:bg-gray-800 bg-white dark:border-gray-700 rounded-lg border border-gray-400 mb-6 py-5 px-4">
+              <div>
+                <h4 className="text-gray-800 dark:text-gray-100 font-bold mb-3">
+                  Authenticity
+                </h4>
+                <p className="text-gray-800 dark:text-gray-100 text-sm">
+                  Staying true to traditional recipes and techniques to preserve
+                  the authenticity of baked goods.
+                </p>
+              </div>
+            </div>
+            <div className="w-full h-64 flex flex-col justify-between bg-gray-300 dark:bg-gray-700 dark:border-gray-700 rounded-lg border border-gray-300 mb-6 py-5 px-4">
+              <div>
+                <h4 className="text-gray-800 dark:text-gray-100 font-bold mb-3">
+                  Innovation
+                </h4>
+                <p className="text-gray-800 dark:text-gray-100 text-sm">
+                  Continuously experimenting with new flavors and creations to
+                  keep the menu fresh and exciting.
+                </p>
+              </div>
+            </div>
+            <div className="w-full h-64 flex flex-col justify-between bg-yellow-400 rounded-lg border border-yellow-400 mb-6 py-5 px-4">
+              <div>
+                <h4 className="text-gray-800 font-bold mb-3">
+                  Customer Service
+                </h4>
+                <p className="text-gray-800 text-sm">
+                  Offering friendly and attentive service to create a welcoming
+                  and satisfying experience for every customer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="rounded">
+            <div className="w-full h-64 flex flex-col justify-between items-start bg-blue-300 rounded-lg border border-blue-300 mb-6 py-5 px-4">
+              <div>
+                <h4 className="text-gray-800 font-bold mb-3">
+                  Community Engagement
+                </h4>
+                <p className="text-gray-800 text-sm">
+                  Engaging with the local community through events,
+                  partnerships, and outreach initiatives.
+                </p>
+              </div>
+            </div>
+            <div className="w-full h-64 flex flex-col justify-between dark:bg-gray-800 bg-white dark:border-gray-700 rounded-lg border border-gray-400 mb-6 py-5 px-4">
+              <div>
+                <h4 className="text-gray-800 dark:text-gray-100 font-bold mb-3">
+                  Fair Pricing
+                </h4>
+                <p className="text-gray-800 dark:text-gray-100 text-sm">
+                  Pricing products fairly to ensure accessibility without
+                  compromising on quality.
+                </p>
+              </div>
+            </div>
+            <div className="w-full h-64 flex flex-col justify-between bg-pink-300 rounded-lg border border-pink-300 mb-6 py-5 px-4">
+              <div>
+                <h4 className="text-gray-800 font-bold mb-3">Passion</h4>
+                <p className="text-gray-800 text-sm">
+                  Infusing every aspect of the bakery with a genuine passion for
+                  baking and a love for creating delicious treats.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

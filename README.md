@@ -8,4 +8,5 @@
 
 ---
 
-###### Welcome to Bakery-website!
+###### Welcome to Yamu Bakery!
+###### [will address imgs loading up slowly once i have free time & add new features ]
